@@ -36,4 +36,4 @@ def update_book(request,id):
 def delete_book(request,id):
     booksobj=BooksModel.objects.get(id=id)
     booksobj.delete()
-    return Response("book is deleted")                      
+    return Response("book is created")                      
